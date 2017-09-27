@@ -17,7 +17,7 @@ app.use(routes);
 mongoose.Promise = global.Promise;
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/reactreadinglist",
+  process.env.MONGODB_URI || "mongodb://heroku_1m1tzqzn:nm085prl1o2u6j080j8ddua09i@ds149974.mlab.com:49974/heroku_1m1tzqzn",
   {
     useMongoClient: true
   }
